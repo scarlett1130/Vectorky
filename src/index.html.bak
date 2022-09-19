@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vector</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="pingback" href="https://vectorky.com/xmlrpc.php">
+<link rel="icon" href="images/footer-img.png">
+<link href="css/style1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min1.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Fjalla+One&amp;display=swap" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/style.min.css" rel="stylesheet" type="text/css">
+<link href="css/mdi.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min1.css" rel="stylesheet" type="text/css" />
+<link href="css/theme.min.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/mearts-toolkit-style.css" rel="stylesheet" type="text/css" />
+<link href="css/venobox.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/stylesheet1.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700%2C800&amp;subset=latin%2Clatin-ext" rel="stylesheet" type="text/css" />
+<link href="css/et-lineicons.css" rel="stylesheet" type="text/css"/>
+<link href="css/material-design-iconic-font.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="css/slick.min.css" rel="stylesheet" type="text/css" />
+<link href="css/mearts-default.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/style1.css" rel="stylesheet" type="text/css" />
+<link href="css/style-awsm.css" rel="stylesheet" type="text/css" />
+<link href="css/popup.css" rel="stylesheet" type="text/css" />
+<style id="mearts-style-inline-css"  rel="stylesheet" type="text/css">
+body .bg-img-1 {
+    background-image: url("images/leader-in-multi-service-civil-engineering.jpg")
+}
+</style>
+<link href="css/block.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css?" rel="stylesheet" type="text/css"/>
+<link href="css/kingcomposer.min.css" rel="stylesheet" type="text/css"/>
+<link  href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/jquery-migrate.min.js"></script> 
+<script type="text/javascript" src="js/modernizr-2.8.3.js"></script> 
+<script type="text/javascript"></script>
+<style type="text/css" id="kc-css-general">
+.kc-off-notice {
+    display: inline-block !important;
+}
+.kc-container {
+    max-width: 1170px;
+}
+</style>
+<style type="text/css" id="kc-css-render"></style>
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+	
+<link rel="stylesheet" href="css/mob_slider.css">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

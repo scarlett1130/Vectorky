@@ -1,0 +1,65 @@
+    
+    <button type="button" aria-controls="rmp-container-870" aria-label="Menu Trigger" id="rmp_menu_trigger-870" class="rmp_menu_trigger rmp-menu-trigger-boring">
+								<span class="rmp-trigger-box">
+									<span class="responsive-menu-pro-inner"></span>
+								</span>
+					</button>
+    <div id="rmp-container-870" class="rmp-container rmp-container rmp-push-right">
+        <div id="rmp-menu-title-870" class="rmp-menu-title">
+            <a href="" target="_self" id="rmp-menu-title-link">
+                <span></span>
+            </a>
+        </div>
+        <div id="rmp-menu-wrap-870" class="rmp-menu-wrap">
+            <ul id="rmp-menu-870" class="rmp-menu" role="menubar" aria-label="Default Menu">
+                <li id="rmp-menu-item-20" class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home rmp-menu-item rmp-menu-current-item rmp-menu-top-level-item" role="none"><a [routerLink]="['/home']" class="rmp-menu-item-link" role="menuitem">Home</a></li>
+                <li id="rmp-menu-item-21" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item" role="none"><a [routerLink]="['/aboutus']" class="rmp-menu-item-link" role="menuitem">About Us</a></li>
+                <li id="rmp-menu-item-25" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children rmp-menu-item rmp-menu-item-has-children rmp-menu-top-level-item" role="none"><a href="/services" class="rmp-menu-item-link" role="menuitem">services<div class="rmp-menu-subarrow">▼</div></a>
+                    <ul aria-label="services" role="menu" data-depth="2" class="rmp-submenu rmp-submenu-depth-1">
+                        <li id="rmp-menu-item-503" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-sub-level-item" role="none"><a href="/services" class="rmp-menu-item-link" role="menuitem">overview</a></li>
+                        <li id="rmp-menu-item-35" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-sub-level-item" role="none"><a [routerLink]="['/geotechnical']" class="rmp-menu-item-link" role="menuitem">GEOTECHNICAL ENGINEERING</a></li>
+                        <li id="rmp-menu-item-363" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-sub-level-item" role="none"><a [routerLink]="['/geophysical']" class="rmp-menu-item-link" role="menuitem">GEOPHYSICAL SERVICES</a></li>
+                        <li id="rmp-menu-item-362" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-sub-level-item" role="none"><a [routerLink]="['/drilling']" class="rmp-menu-item-link" role="menuitem">DRILLING SERVICES</a></li>
+                        <li id="rmp-menu-item-361" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-sub-level-item" role="none"><a [routerLink]="['/construction']" class="rmp-menu-item-link" role="menuitem">CONSTRUCTION SERVICES &amp; TESTING</a></li>
+                        <li id="rmp-menu-item-360" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-sub-level-item" role="none"><a [routerLink]="['/forensic']" class="rmp-menu-item-link" role="menuitem">FORENSIC GEOTECHNICAL ENGINEERING</a></li>
+                    </ul>
+                </li>
+                <li id="rmp-menu-item-480" class="career menu-item menu-item-type-custom menu-item-object-custom rmp-menu-item rmp-menu-top-level-item" role="none"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&amp;ccId=165919794_8471&amp;type=MP&amp;lang=en_US" class="rmp-menu-item-link"
+                        role="menuitem">Careers</a></li>
+                <li id="rmp-menu-item-24" class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item" role="none"><a [routerLink]="['/contactus']" class="rmp-menu-item-link" role="menuitem">Contact</a></li>
+            </ul>
+        </div>
+        <div id="rmp-menu-additional-content-870" class="rmp-menu-additional-content">
+            <div class="col-md-4 col-sm-4 rbox box">
+                <ul class="menu-add text-right">
+                    <li>
+                        <h3><strong>SHELBYVILLE</strong></h3>
+                    </li>
+                    <li><a href="tel:(502) 633-7585">(502) 633-7585</a></li>
+                    <li>1535 Old Finchville Road</li>
+                    <li>Shelbyville, KY 40065</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4 mbox box">
+                <div class="menu-logo text-center"> <img src="https://vectorky.com/wp-content/uploads/2020/06/menulogo.png" alt="menu_logo" border="0" data-xblocker="passed" style="visibility: visible;"> </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 lbox box">
+                <ul class="menu-add text-left">
+                    <li>
+                        <h3><strong>OWENSBORO</strong></h3>
+                    </li>
+                    <li><a href="tel:(270) 984-2923">(270) 984-2923</a></li>
+                    <li>400 E Second St</li>
+                    <li>Owensboro, KY 40303</li>
+                </ul>
+            </div>
+            <div id="mmenu" class="col-md-12 col-sm-12 mdl box">
+                <ul>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a [routerLink]="['/privacy']">Privacy Policy</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a [routerLink]="['/terms']">Terms of use</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>

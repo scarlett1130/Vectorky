@@ -1,0 +1,34 @@
+<header id="active-sticky" class="fixed">
+    <div class="container header-container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="d-flex">
+                    <div class="logo mr-auto">
+                        <a [routerLink]="['/home']" class="custom-logo-link" rel="home"> <img width="400" height="400" src="assets/images/logo-main.png" class="custom-logo" alt="Vector Engineers, Inc | Kentucky Area - Logo" /> </a>
+                    </div>
+                    <div class="mainmenu onepage-menu">
+                        <nav class="navbar-collapse clearfix smooth-scroll">
+                            <ul id="menu-header_menu" class="menu">
+                                <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-20"><a [routerLink]="['/home']" aria-current="page">Home</a></li>
+                                <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a [routerLink]="['/aboutus']">About Us</a></li>
+                                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25"><a>services</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503"><a href="/services">overview</a></li>
+                                        <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a [routerLink]="['/geotechnical']">GEOTECHNICAL ENGINEERING</a></li>
+                                        <li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a [routerLink]="['/geophysical']">GEOPHYSICAL SERVICES</a></li>
+                                        <li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a [routerLink]="['/drilling']">DRILLING SERVICES</a></li>
+                                        <li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a [routerLink]="['/construction']">CONSTRUCTION SERVICES &#038; TESTING</a></li>
+                                        <li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a [routerLink]="['/forensic']">FORENSIC GEOTECHNICAL ENGINEERING</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-480" class="career menu-item menu-item-type-custom menu-item-object-custom menu-item-480"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+                                <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a [routerLink]="['/contactus']">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-mininav></app-mininav>
+</header>

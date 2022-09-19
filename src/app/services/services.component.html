@@ -1,0 +1,508 @@
+<header id="active-sticky" class="fixed">
+    <div class="container header-container" style="max-width:96%">
+        <div class="row">
+            <div class="col-xs-12" style="padding-right: 0;">
+                <div class="d-flex">
+                    <div class="logo mr-auto">
+                        <a [routerLink]="['/home']" class="custom-logo-link" rel="home"> <img width="400" height="400" src="assets/images/logo-main.png" class="custom-logo" alt="Vector Engineers, Inc | Kentucky Area - Logo" /> </a>
+                    </div>
+                    <div class="mainmenu onepage-menu">
+                        <nav class="navbar-collapse clearfix smooth-scroll">
+                            <ul id="menu-header_menu" class="menu">
+                                <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-20"><a [routerLink]="['/home']">Home</a></li>
+                                <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a [routerLink]="['/aboutus']">About Us</a></li>
+                                <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-25"><a style="color: #fff;">services</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-497 current_page_item menu-item-503"><a href="/services" aria-current="page">overview</a></li>
+                                        <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a [routerLink]="['/geotechnical']">GEOTECHNICAL ENGINEERING</a></li>
+                                        <li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a [routerLink]="['/geophysical']">GEOPHYSICAL SERVICES</a></li>
+                                        <li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a [routerLink]="['/drilling']">DRILLING SERVICES</a></li>
+                                        <li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a [routerLink]="['/construction']">CONSTRUCTION SERVICES &#038; TESTING</a></li>
+                                        <li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a [routerLink]="['/forensic']">FORENSIC GEOTECHNICAL ENGINEERING</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-480" class="career menu-item menu-item-type-custom menu-item-object-custom menu-item-480"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+                                <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a [routerLink]="['/contactus']">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-mininav></app-mininav>
+
+</header>
+<!-- <app-header></app-header> -->
+<div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog-centered" style="width:770px; margin:0 auto;">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="font-size: 18px;">
+            <div class="modal-header" style="background-color:black;border-bottom: 0px ;">
+                <h4 class="modal-title" style="color:#B4563A;font-size:30px;margin-left:4%;">PLEASE FILL OUT THE FORM BELOW, AND WE WILL BE IN TOUCH!</h4>
+                <button type="button" class="close" data-dismiss="modal" style="color:#fff;margin-top: 4px;font-size: 27px;opacity: 1;margin-right: 13px; border: 2px solid #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 1px 8px;
+   ">&times;</button>
+            </div>
+            <div class="xg-service-box-02 tinted-image" style="height:550px;padding: 0px 0px 0px 0px;border: 0px; ">
+                <div class="modal-body">
+                    <div class="container-contact2">
+                        <div class="wrap-contact2" style="padding: 15px 75px 86px 32px;">
+                            <div id="mail-status"></div>
+                            <div class="wrap-input2 validate-input" data-validate="Name is required">
+                                <input class="input2 fname" type="text" name="name" #name (change)="onChange('name',name.value)" style="border: 0px;">
+                                <span class="focus-input2 pfname" data-placeholder="Name" [ngStyle]="{ 'display':name1 ? 'block': 'none'}"></span>
+                                <span class="focus-input2 pfnamereq" data-placeholder="Name is required" [ngStyle]="{ 'display':name2 ? 'block': 'none'}"></span>
+                            </div>
+                            <div class="wrap-input2 validate-input" data-validate="Phone number is required">
+                                <input class="input2 fmobile" type="tel" maxlength="10" name="mobile" #mobile (change)="onChange('mobile',mobile.value)" style="border:0px;">
+                                <span class="focus-input2 pmobile" data-placeholder="Mobile" [ngStyle]="{ 'display':mobile1 ? 'block': 'none'}"></span>
+                                <span class="focus-input2 pmobilereq" data-placeholder="Valid phone number is required" [ngStyle]="{ 'display':mobile2 ? 'block': 'none'}"></span>
+                            </div>
+                            <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                                <input class="input2 femail" type="email" name="email" #email (change)="onChange('email', email.value)" style="border: 0px">
+                                <span class="focus-input2 pemail" data-placeholder="Email" [ngStyle]="{ 'display':email1 ? 'block': 'none'}"></span>
+                                <span class="focus-input2 pemailreq" data-placeholder="Valid email is required: ex@abc.xyz" [ngStyle]="{ 'display':email2  ? 'block': 'none'}"></span>
+                            </div>
+                            <div class="wrap-input2 validate-input" data-validate="Message is required">
+                                <textarea class="input2 fmessage" name="message" #message (change)="onChange('message',message.value)" style="border: 0px"></textarea>
+                                <span class="focus-input2 pmessage" data-placeholder="Message" [ngStyle]="{ 'display':message1 ? 'block': 'none'}"></span>
+                                <span class="focus-input2 pmessagereq" data-placeholder="Message is required" [ngStyle]="{ 'display':message2 ? 'block': 'none'}"></span>
+
+                            </div>
+                            <re-captcha (resolved)="resolved($event)" (error)="onError($event)" errorMode="handled"></re-captcha>
+                            <div class="container-contact2-form-btn text-right">
+                                <div class="wrap-contact2-form-btn">
+                                    <div class="contact2-form-bgbtn"></div>
+                                    <button class="contact2-form-btn" (click)="sendContact();"> <strong>SUBMIT</strong> </button>
+                                </div>
+                            </div>
+
+                            <!-- <script>
+                                var jg4 = jQuery.noConflict();
+
+                                jg4(function() {
+
+                                    jg4(".fname").change(function() {
+                                        // Print entered value in a div box
+                                        console.log("s");
+                                        console.log(jg4(".fname").val());
+                                        if (jg4(".fname").val() != "") {
+                                            jg4('.pfname').hide();
+                                            jq('.pfnamereq').hide();
+                                        } else {
+                                            jg4('.pfname').show();
+
+                                        }
+
+                                    });
+                                    jg4(".fmobile").change(function() {
+                                        // Print entered value in a div box
+
+                                        if (jg4(".fmobile").val() != "") {
+                                            jg4('.pmobile').hide();
+                                            jg4('.pmobilereq').hide();
+                                        } else {
+                                            jg4('.pmobile').show();
+
+                                        }
+
+                                    });
+
+                                    jg4(".femail").change(function() {
+                                        // Print entered value in a div box
+
+                                        if (jg4(".femail").val() != "") {
+                                            jg4('.pemail').hide();
+                                            jg4('.pemailreq').hide();
+                                        } else {
+                                            jg4('.pemail').show();
+
+                                        }
+
+                                    });
+
+                                    jg4(".fmessage").change(function() {
+                                        // Print entered value in a div box
+
+                                        if (jg4(".fmessage").val() != "") {
+                                            jg4('.pmessage').hide();
+                                            jg4('.pmessagereq').hide();
+                                        } else {
+                                            jg4('.pmessage').show();
+
+                                        }
+
+                                    });
+
+                                });
+                            </script>
+
+                            <script>
+                                var jq = jQuery.noConflict();
+
+                                function sendContact() {
+                                    var valid;
+                                    valid = validateContact();
+                                    if (valid) {
+                                        jQuery.ajax({
+                                            url: "http://localhost:8080/vector/wp-content/themes/vector4/contact_mail.php",
+                                            data: 'userName=' + jq(".fname").val() + '&userEmail=' + jq(".femail").val() + '&phone=' + jq(".fmobile").val() + '&content=' + jq(".fmessage").val(),
+                                            type: "POST",
+                                            success: function(data) {
+                                                jq("#mail-status").html(data);
+                                            },
+                                            error: function() {}
+                                        });
+                                    }
+                                }
+
+                                function validateContact() {
+                                    var valid = true;
+                                    /*jq(".demoInputBox").css('background-color','');
+                                    jq(".info").html('');*/
+
+                                    if (!jq(".fname").val()) {
+                                        jq('.pfname').hide();
+                                        jq('.pfnamereq').show();
+                                        //jq("#userName-info").html("(required)");
+                                        //jq("#userName").css('background-color','#FFFFDF');
+                                        valid = false;
+                                    }
+                                    if (!jq(".fmobile").val()) {
+                                        //jq("#userEmail-info").html("(required)");
+                                        //jq("#userEmail").css('background-color','#FFFFDF');
+                                        jq('.pmobile').hide();
+                                        jq('.pmobilereq').show();
+                                        valid = false;
+                                    }
+
+                                    if (!jq(".fmobile").val().match(/^\d*(?:\.\d{1,2})?$/)) {
+                                        jq('.pmobile').hide();
+                                        jq('.pmobilereq').show();
+                                        //jq("#userEmail-info").html("(invalid)");
+                                        //jq("#userEmail").css('background-color','#FFFFDF');
+                                        valid = false;
+                                    }
+
+                                    if (!jq(".femail").val()) {
+                                        //jq("#userEmail-info").html("(required)");
+                                        //jq("#userEmail").css('background-color','#FFFFDF');
+                                        jq('.pemail').hide();
+                                        jq('.pemailreq').show();
+                                        valid = false;
+                                    }
+
+                                    if (!jq(".femail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+                                        jq('.pemail').hide();
+                                        jq('.pemailreq').show();
+                                        //jq("#userEmail-info").html("(invalid)");
+                                        //jq("#userEmail").css('background-color','#FFFFDF');
+                                        valid = false;
+                                    }
+                                    /*if(!jq("#subject").val()) {
+                                        jq("#subject-info").html("(required)");
+                                        jq("#subject").css('background-color','#FFFFDF');
+                                        valid = false;
+                                    }*/
+                                    if (!jq(".fmessage").val()) {
+                                        //jq("#content-info").html("(required)");
+                                        //jq("#content").css('background-color','#FFFFDF');
+                                        jq('.pmessage').hide();
+                                        jq('.pmessagereq').show();
+                                        valid = false;
+                                    }
+
+                                    return valid;
+                                }
+                            </script> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<!--<header class="container-fluid" id="header">
+    <div class="row">
+      <div class="container">
+        <div class="header_section">
+          <div class="header_content">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                          <a href="" class="logo"> <img src="" alt=""> </a>
+                          <div class="mainmenu header_menu">
+                              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>-->
+<!-- / Header -->
+
+<!-- Content -->
+
+<section id="bannerSlider">
+    <div class="row">
+        <div class="banner_slider_section ">
+            <div class="banner_slider_content">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide dotContent="<strong>0</strong>">
+                        <div class="banner_slider">
+                            <div class="item Lastslide1" data-dot="Geotechnical <span>Engineering</strong>">
+                                <div class="banner_slider_box" style="background-image: url('assets/images/geotechnical-engineering-service-company.png');">
+                                    <div class="container h-100">
+
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center h-100">
+                                            <div class="heading_part">
+                                                <h1> Geotechnical <br>
+                                                    <span>Engineering</span> </h1>
+                                            </div>
+                                            <div class="slider_box_right_part">
+                                                <p style="font-size:20px;">Solving complex engineering problems to mitigate the risk to property, people, and the environment.</p>
+                                                <ul class="d-flex flex-wrap">
+                                                    <li> <a [routerLink]="['/geotechnical']" class="read_btn" title="vector-engineering-inc-read-more" alt="Vector Engineers, Inc | Read More">Read More</a> </li>
+                                                    <li> <a href="#" data-toggle="modal" data-target="#myModal" class="read_btn expert_btn" title="vector-engineering-inc-ask-an-expert" alt="Vector Engineers, Inc | Ask an Expert">Ask An Expert</a> </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide dotContent="<strong>1</strong>">
+                        <div class="banner_slider">
+                            <div class="item Lastslide2" data-dot="Geophysical <span>services</strong>">
+                                <div class="banner_slider_box" style="background-image: url('assets/images/geophysical-engineering-services-firm.png');">
+                                    <div class="container h-100">
+
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center h-100">
+                                            <div class="heading_part">
+                                                <h1> Geophysical <br>
+                                                    <span>Services</span> </h1>
+                                            </div>
+                                            <div class="slider_box_right_part">
+                                                <p style="font-size:20px;">Non-destructive subsurface explorations, through a variety of cutting-edge and innovative technologies.</p>
+                                                <ul class="d-flex flex-wrap">
+                                                    <li> <a [routerLink]="['/geophysical']" class="read_btn" title="vector-engineering-inc-read-more" alt="Vector Engineers, Inc | Read More">Read More</a> </li>
+                                                    <li> <a href="#" data-toggle="modal" data-target="#myModal" class="read_btn expert_btn" title="vector-engineering-inc-ask-an-expert" alt="Vector Engineers, Inc | Ask an Expert">Ask An Expert</a> </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide dotContent="<strong>2</strong>">
+                        <div class="banner_slider">
+                            <div class="item Lastslide3" data-dot="Drilling <span>Services</strong>">
+                                <div class="banner_slider_box" style="background-image: url('assets/images/drilling-services-organisation.png');">
+                                    <div class="container h-100">
+
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center h-100">
+                                            <div class="heading_part">
+                                                <h1> Drilling <br>
+                                                    <span>Services</span> </h1>
+                                            </div>
+                                            <div class="slider_box_right_part">
+                                                <p style="font-size:20px;">Experience & expertise, answering the need of any Geotechnical/Environmental drilling project.</p>
+                                                <ul class="d-flex flex-wrap">
+                                                    <li> <a [routerLink]="['/drilling']" class="read_btn" title="vector-engineering-inc-read-more" alt="Vector Engineers, Inc | Read More">Read More</a> </li>
+                                                    <li> <a href="#" data-toggle="modal" data-target="#myModal" class="read_btn expert_btn" title="vector-engineering-inc-ask-an-expert" alt="Vector Engineers, Inc | Ask an Expert">Ask An Expert</a> </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide dotContent="<strong>3</strong>">
+                        <div class="banner_slider">
+                            <div class="item Lastslide4" data-dot="Construction <span>Services & Testing</strong>">
+                                <div class="banner_slider_box" style="background-image: url('assets/images/construction-services-and-testing-company-kentucky.png');">
+                                    <div class="container h-100">
+
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center h-100">
+                                            <div class="heading_part">
+                                                <h1> Construction <br>
+                                                    <span>Services & Testing</span> </h1>
+                                            </div>
+                                            <div class="slider_box_right_part">
+                                                <p style="font-size:20px;">From administration to quality control, to testing and every essential construction service in between.</p>
+                                                <ul class="d-flex flex-wrap">
+                                                    <li> <a [routerLink]="['/construction']" class="read_btn" title="vector-engineering-inc-read-more" alt="Vector Engineers, Inc | Read More">Read More</a> </li>
+                                                    <li> <a href="#" data-toggle="modal" data-target="#myModal" class="read_btn expert_btn" title="vector-engineering-inc-ask-an-expert" alt="Vector Engineers, Inc | Ask an Expert">Ask An Expert</a> </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide dotContent="<strong>4</strong>">
+                        <div class="banner_slider">
+                            <div class="item Lastslide5" data-dot="Forensic <span>Geotechnical Engineering</strong>">
+                                <div class="banner_slider_box" style="background-image: url('assets/images/forensic-geotechnical-engineering-services-company.png');">
+                                    <div class="container h-100">
+
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center h-100">
+                                            <div class="heading_part">
+                                                <h1> Forensic Geotechnical<br>
+                                                    <span>Engineering</span> </h1>
+                                            </div>
+                                            <div class="slider_box_right_part">
+                                                <p style="font-size:20px;">Analyzing Geotechnical site conditions on construction projects from an engineering standpoint.</p>
+                                                <ul class="d-flex flex-wrap">
+                                                    <li> <a [routerLink]="['/forensic']" class="read_btn" title="vector-engineering-inc-read-more" alt="Vector Engineers, Inc | Read More">Read More</a> </li>
+                                                    <li> <a href="#" data-toggle="modal" data-target="#myModal" class="read_btn expert_btn" title="vector-engineering-inc-ask-an-expert" alt="Vector Engineers, Inc | Ask an Expert">Ask An Expert</a> </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>
+
+                <div class="slider_thumbnail_part">
+                    <div class="container">
+                        <div class="d-flex flex-wrap align-items-center justify-content-between">
+                            <ul class="d-flex flex-wrap thumbnail_menu">
+                                <li class="active aactive"> <a href="javascript:;">Geotechnical <span>Engineering</span></a> </li>
+                                <li class="active"> <a href="javascript:;">Geophysical <span>services</span></a> </li>
+                                <li class="active"> <a href="javascript:;">Drilling <span>Services</span></a> </li>
+                                <li class="active"> <a href="javascript:;">Construction <span>Services & Testing</span></a> </li>
+                                <li class="active"> <a href="javascript:;">Forensic <span>Geotechnical Engineering</span></a> </li>
+                            </ul>
+                            <a href="javascript:;" class="mouse">
+                                <div class="dot"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    #bannerSlider {
+        padding-left: 15px;
+    }
+</style>
+<!-- / Content -->
+
+<!-- Footer -->
+
+<footer id="footer">
+
+    <div id="footer_service">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <div id="popask">
+                        <div id="pptext" class="col-xs-12 col-md-9 col-sm-8">
+                            <p>NEED SOME EXPERT ADVICE ON A PROJECT FOR YOU OR A CLIENT? LET A CERTIFIED MEMBER OF OUR TEAM GUIDE YOU THROUGH THE ENTIRE PROCESS AND HELP YOU FINALISE ON EXACTLY WHAT YOU NEED.</p>
+                        </div>
+                        <div id="askbtn" class="col-xs-12 col-md-3 col-sm-4"><a href="#" data-toggle="modal" data-target="#myModal" class="read_btn">Ask an Expert</a> </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="stopline">
+                    <div class="col-xs-12 text-center">
+                        <div class="divider theme-bg">
+                            <hr class="line white btmline">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div id="footerlink">
+                    <div id="footmenu1" class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="contact-info">
+                            <ul id="menu-header_menu" class="footer_menu d-flex flex-wrap align-content-between">
+                                <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-171"><a [routerLink]="['/home']">Home</a></li>
+                                <li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a [routerLink]="['/aboutus']">About Us</a></li>
+                                <li id="menu-item-508" class="active_menu3 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-497 current_page_item menu-item-508"><a href="/services" aria-current="page">Services</a></li>
+                                <li id="menu-item-481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="footadd1" class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="contact-info adds1 text-right">
+                            <h3 class="title">SHELBYVILLE</h3>
+                            <ul>
+                                <li>502-437-5650</li>
+                                <li>1535 Old Finchville Road</li>
+                                <li>Shelbyville, KY 40065</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ftlogo" class="col-xs-12 col-sm-6 col-md-3 text-center">
+                        <div class="contact-info"> <img src="assets/images/vector-engineers-kentucky-logo.png" alt="Vector, Inc. | Logo"> </div>
+                    </div>
+                    <div id="footadd2" class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="contact-info adds2">
+                            <h3 class="title">OWENSBORO</h3>
+                            <ul>
+                                <li>(270) 984-2923</li>
+                                <li>400 E Second St</li>
+                                <li>Owensboro, KY 40303</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="footmenu2" class="col-xs-12 col-sm-6 col-md-2">
+                        <div class="contact-info">
+                            <ul id="menu-header_menu" class="footer_menu d-flex flex-wrap align-content-between">
+                                <li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a [routerLink]="['/contactus']">Contact Us</a></li>
+                                <li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-176"><a [routerLink]="['/privacy']">Privacy Policy</a></li>
+                                <li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a [routerLink]="['/terms']">Terms of use</a></li>
+                                <li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="social" class="social-line">
+
+                </div>
+
+
+
+                <div class="copypart" style="margin-top:2.5%;">
+                    <div class="col-md-4 col-sm-4 copyright">
+                        <p class="white-color">&#169; 2022 &nbsp;<a [routerLink]="['/home']">Vector Engineers, Inc.</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="col-xs-12 text-center"> </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 copyrightr">
+                        <p class="white-color">Design - &nbsp;<a target="_blank" href="https://www.marchingantsglobal.com/">Marching Ants </a></p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>

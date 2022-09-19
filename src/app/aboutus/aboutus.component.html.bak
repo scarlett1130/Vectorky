@@ -1,0 +1,691 @@
+<header id="active-sticky" class="fixed">
+  <div class="container header-container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="d-flex">
+                    <div class="logo mr-auto"> <a [routerLink]="['/home']" class="custom-logo-link" rel="home"> <img width="400" height="400" src="assets/images/logo-main.png" class="custom-logo" alt="Vector Engineers, Inc | Kentucky Area - Logo" /> </a> </div>
+                    <div class="mainmenu onepage-menu">
+            <nav class="navbar-collapse clearfix smooth-scroll">
+              <ul id="menu-header_menu" class="menu"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-20"><a [routerLink]="['/home']">Home</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-21"><a [routerLink]="['/aboutus']" aria-current="page">About Us</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25"><a href="#">services</a>
+<ul class="sub-menu">
+	<li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503"><a href="/services">overview</a></li>
+	<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a [routerLink]="['/geotechnical']">GEOTECHNICAL ENGINEERING</a></li>
+	<li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a [routerLink]="['/geophysical']">GEOPHYSICAL SERVICES</a></li>
+	<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a [routerLink]="['/drilling']">DRILLING SERVICES</a></li>
+	<li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a [routerLink]="['/construction']">CONSTRUCTION SERVICES &#038; TESTING</a></li>
+	<li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a [routerLink]="['/forensic']">FORENSIC GEOTECHNICAL ENGINEERING</a></li>
+</ul>
+</li>
+<li id="menu-item-480" class="career menu-item menu-item-type-custom menu-item-object-custom menu-item-480"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a [routerLink]="['/contactus']">Contact</a></li>
+</ul>            </nav>
+          </div>
+        </div>
+        
+        <!-- next start side menu --> 
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="pagebanner" class="slider-area abpage_banner height-100  bg-img-1 mearts-overlay rt-animate" data-rt-offset="50%">
+  <div class="d-table">
+    <div class="dt-cell">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-right">
+            <div class="slide-caption smooth-scroll">
+              <h1 class="mearts-author white-color">ABOUT OUR<br>
+                COMPANY</h1>
+              <div class="lineabout"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Slider Section End -->
+
+<div id="primary" class="content-area aboutuspage">
+  <div class="about-me-area about_mobile" id="aboutmob">
+    <div class="container">
+      <div class="about-me">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+            <div class="mobile_tab">
+              <div class="card mt-3 tab-card">
+                <div class="card-header tab-card-header">
+                  <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                    <li class="nav-item active"> <a class="nav-link" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">OUR HISTORY</a> </li>
+                    <li class="nav-item"> <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false">OUR FUTURE </a> </li>
+                  </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade active in p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
+                    <h2 class="card-title">OUR <span>HISTORY</span></h2>
+                    <div class="ableft_img"> <img src="assets/images/our-history-image.jpg" alt="Vector Engineers, Inc | Kentucky - Logo"> </div>
+                    <div class="card-text">
+                      <p>For over 20 years, Vector Engineers Inc. has spearheaded engineering solutions that are rooted in experience, expertise, and passion. Initially specializing in civil engineering and land surveying, we are run by a dedicated team of engineers, geologists, technicians, and drillers focused the firm to specialize in geotechnical engineering, geotechnical drilling, geosciences, construction services, and forensic geotechnical engineering.</p>
+                      <p>Having served Kentucky, Tennessee, and Southern Indiana for almost two decades, Vector Engineers is the preferred partner for owners, construction managers, and property developers in the three states we operate in.</p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade p-3" id="two" role="tabpanel" aria-labelledby="two-tab">
+                    <h2 class="card-title">OUR FUTURE <span>(MERGER WITH CTL)</span></h2>
+                    <div class="abright_img"> <img src="assets/images/our-future-image.jpg" alt="CTL Engineering, Inc | Ohio - Logo"> </div>
+                    <div class="card-text">
+                      <p>With a view of expanding its own operations across the states that Vector Engineers has a firm presence in, we acquired by CTL Engineering Inc.</p>
+                      <p>CTL is a full-service consulting engineering firm serving 13 cities across Ohio, Virginia, West Virginia, Pennsylvania, Indiana, and Kentucky, in addition to an office in India. Being an employee-owned firm, CTL provides services that encompass engineering, forensic science, construction, testing, and IT. Their array of services has benefitted clients across construction and manufacturing industries, telecommunication companies, and the energy sector. Post the merger, both organizations are primed for growth with teams in place to offer even more value to customers.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="aboutdesktop">
+        <div id="about" class="about-area pagearea white-bg section-padding rt-animate" data-rt-offset="50%">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 column-center">
+            <div class="mlr-minus clearfix">
+              <div class="ableft_img col-xs-12 col-sm-12 col-md-6" style="width:42%;"> <img src="assets/images/vector-engineers-inc-logo.jpg" alt="Vector Engineers, Inc | Kentucky - Logo"> </div>
+              <div class="ableft_content col-xs-12 col-sm-12 col-md-6" style="width:58%;">
+                <div class="myself">
+                  <div class="heading" style="text-align:right;" >
+                    <h2><b>OUR <br>
+                    <span>HISTORY</span> </b></h2>
+                    <p>For over 20 years, Vector Engineers Inc. has spearheaded engineering solutions that are rooted in experience, expertise, and passion. Initially specializing in civil engineering and land surveying, we are run by a dedicated team of engineers, geologists, technicians, and drillers who have focused the firm to specialize in geotechnical engineering, geotechnical drilling, geosciences, construction services, and forensic geotechnical engineering.</p>
+<p>&nbsp;</p>
+<p>Having served Kentucky, Tennessee, and Southern Indiana for almost two decades, Vector Engineers is the preferred partner for owners, construction managers, and property developers in the three states we operate in.</p>
+ </div>
+                  <!--<a href="#" target="" class="btn lg-btn mt-20" style="background-color: #b4563a;">READ MORE</a>--> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div  class="about-area pagearea2 white-bg section-padding rt-animate" data-rt-offset="50%">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 column-center">
+            <div class="mlr-minus clearfix pt-40">
+              <div class="abright_content col-xs-12 col-sm-12 col-md-6" style="width:60%;">
+                <div class="myself">
+                  <div class="heading">
+                    <h2> OUR FUTURE <br>
+                    <span>(MERGER WITH CTL)</span></h2>
+                    <p>With a view of expanding its own operations across the states that <em>Vector Engineers</em> has a firm presence in, we were acquired by<b style="font-weight: bold;"> CTL Engineering Inc.</b></p>
+<p>&nbsp;</p>
+<p><em>CTL</em> is a full-service consulting engineering firm serving 13 cities across Ohio, Virginia, West Virginia, Pennsylvania, Indiana, and Kentucky, in addition to an office in India. Being an employee-owned firm, <em>CTL</em> provides services that encompass engineering, forensic science, construction, testing, and IT. Their array of services has benefitted clients across construction and manufacturing industries, telecommunication companies, and the energy sector. Post the merger, both organizations are primed for growth with teams in place to offer even more value to customers.</p>
+ </div>
+                  <!--<a href="#" target="" class="btn lg-btn mt-20" style="background-color: #b4563a;">READ MORE</a>--> 
+                </div>
+              </div>
+              <div class="abright_img col-xs-12 col-sm-12 col-md-6" style="width:40%;"> <img src="assets/images/ctl-engineering-inc.jpg" alt="CTL Engineering, Inc | Ohio - Logo"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project about-testimonial dextop_view">
+    <div class="inner_part">
+      <div class="container-fluid">
+        <div id="team-holder" class="row"> 
+          <!--For Mobile version-->
+          <div id="our-team-mobile" class="owl-carousel">
+                        <div class="item"  data-dot="<p>Wayne A. Karem,<br> Ph.D., P.E., P.G., D. GE</p>">
+              <div class="col-xs-3 team_left" style="background:url(assets/images/Folsom_Rob-e1629433796174.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Karem_Wayne_20210728_FP6_8111.jpg.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>Wayne A. Karem,</h5>
+                    <p>Ph.D., P.E., P.G., D. GE</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide1">
+                  <div class="about-slider-content-update">
+                    <p>Having graduated with a Ph. D from the University of Kentucky, Dr. Karem brings with him over 35 years of experience in Geotechnical Engineering and Construction Materials Testing. During his illustrious career, he has been a part-time professor at the University of Kentucky between 2004-2015 and a member of the Kentucky Association of Economic Developers (KAED). Being a certified expert in Geotechnical Engineering with several published research papers to his credit, he is an integral part of the team and its deliverables. Dr. Karem was the Executive Vice President for QORE Property Sciences (Formerly Atlanta Testing and Engineering), prior to joining Vector.<br />
+Wayne is the <em>President</em> at Vector and is currently an advisor to the Civil Engineering Department at Western Kentucky University and an adjunct Professor at the University of Kentucky. Dr. Karem also is active in the American Council of Engineering Consultants (ACEC).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="item"  data-dot="<p>John D. Conway,<br> P.E.</p>">
+              <div class="col-xs-3 team_left" style="background:url(assets/images/Karem_Wayne-e1629433498508.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Conway_John-David_20210728_FP6_8181.jpg.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>John D. Conway,</h5>
+                    <p>P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide2">
+                  <div class="about-slider-content-update">
+                    <p>John, a B.S.C.E. graduate from the University of Kentucky, has been working with Vector for over 5 years. He has worked on numerous large projects in field testing, before being elevated to the CMT Department as <em>Leader &amp; Project Manager</em>. An engineer&#8217;s engineer, John has spent the majority of his time at the company working on geotechnical site characterizations and overseeing the majority of the company&#8217;s testing projects.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="item"  data-dot="<p>W. Robert Folsom,<br> MSCE, P.E.</p>">
+              <div class="col-xs-3 team_left" style="background:url(assets/images/Conway_John-e1629433846463.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Folsom_Rob_2021.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>W. Robert Folsom,</h5>
+                    <p>MSCE, P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide3">
+                  <div class="about-slider-content-update">
+                    <p>A bona-fide rocket scientist, Robert aka &#8216;Rob&#8217; as he is affectionately known, brings with him a B.S. and an M.S. from Brigham Young University. Since his transition from Law Engineering to Geotechnical Engineering in the early &#8217;90s, Rob has served as the Chief Engineer supervising the Owensboro office for over 11 years. With a total of 33 years of experience under his belt, he is Vector&#8217;s &#8216;go-to&#8217; man when it comes to seismic sites and building class determination, and liquefaction analysis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="item"  data-dot="<p>Matthew J. Slusser, <br>MEng, P.E.</p>">
+              <div class="col-xs-3 team_left" style="background:url(images/Folsom_Rob-e1629433796174.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Slusser_Matt_20210728_FP6_8203-for-web.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>Matthew J. Slusser,</h5>
+                    <p>MEng, P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide4">
+                  <div class="about-slider-content-update">
+                    <p>As Leader of the Geotechnical Services department, Matt manages an experienced group of geotechnical engineers having expertise in both geotechnical investigation and design as well as construction testing for a wide variety of projects, ranging from small communications towers to large industrial buildings and wastewater treatment plants. Matt graduated with a Master�s Degree in Civil Engineering from the University of Louisville and began his career in 2013 before arriving at Vector in 2015.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                      </div>
+          <!--For Mobile version-->
+          
+          <div id="our-team" class="owl-carousel">
+                        <div class="item"  data-dot="<p>Wayne A. Karem,<br> Ph.D., P.E., P.G., D. GE</p>">
+              <div class="col-xs-3 team_left" style="background:url(assets/images/Folsom_Rob-e1629433796174.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Karem_Wayne_20210728_FP6_8111.jpg.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>Wayne A. Karem,</h5>
+                    <p>Ph.D., P.E., P.G., D. GE</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide1">
+                  <div class="about-slider-content-update">
+                    <p>Having graduated with a Ph. D from the University of Kentucky, Dr. Karem brings with him over 35 years of experience in Geotechnical Engineering and Construction Materials Testing. During his illustrious career, he has been a part-time professor at the University of Kentucky between 2004-2015 and a member of the Kentucky Association of Economic Developers (KAED). Being a certified expert in Geotechnical Engineering with several published research papers to his credit, he is an integral part of the team and its deliverables. Dr. Karem was the Executive Vice President for QORE Property Sciences (Formerly Atlanta Testing and Engineering), prior to joining Vector.<br />
+Wayne is the <em>President</em> at Vector and is currently an advisor to the Civil Engineering Department at Western Kentucky University and an adjunct Professor at the University of Kentucky. Dr. Karem also is active in the American Council of Engineering Consultants (ACEC).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="item"  data-dot="<p>John D. Conway,<br> P.E.</p>">
+              <div class="col-xs-3 team_left" style="background:url(assets/images/Karem_Wayne-e1629433498508.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Conway_John-David_20210728_FP6_8181.jpg.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>John D. Conway,</h5>
+                    <p>P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide2">
+                  <div class="about-slider-content-update">
+                    <p>John, a B.S.C.E. graduate from the University of Kentucky, has been working with Vector for over 5 years. He has worked on numerous large projects in field testing, before being elevated to the CMT Department as <em>Leader &amp; Project Manager</em>. An engineer&#8217;s engineer, John has spent the majority of his time at the company working on geotechnical site characterizations and overseeing the majority of the company&#8217;s testing projects.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="item"  data-dot="<p>W. Robert Folsom,<br> MSCE, P.E.</p>">
+              <div class="col-xs-3 team_left" style="background:url(assets/images/Conway_John-e1629433846463.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Folsom_Rob_2021.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>W. Robert Folsom,</h5>
+                    <p>MSCE, P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide3">
+                  <div class="about-slider-content-update">
+                    <p>A bona-fide rocket scientist, Robert aka &#8216;Rob&#8217; as he is affectionately known, brings with him a B.S. and an M.S. from Brigham Young University. Since his transition from Law Engineering to Geotechnical Engineering in the early &#8217;90s, Rob has served as the Chief Engineer supervising the Owensboro office for over 11 years. With a total of 33 years of experience under his belt, he is Vector&#8217;s &#8216;go-to&#8217; man when it comes to seismic sites and building class determination, and liquefaction analysis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="item"  data-dot="<p>Matthew J. Slusser, <br>MEng, P.E.</p>">
+              <div class="col-xs-3 team_left" style="background:url(images/Folsom_Rob-e1629433796174.png) no-repeat;">
+                <div class="team_left_content">
+                  <h2 class="top-border"><span>Leadership</span></h2>
+                  <h2>Team </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+              </div>
+              <div class="col-xs-9 team_right">
+                <div class="col-md-6 col-sm-6 tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Slusser_Matt_20210728_FP6_8203-for-web.jpg" alt="Vector Engineers, Inc | President - Wayne A. Karem"> </div>
+                  <div class="slider-2-contant">
+                    <h5>Matthew J. Slusser,</h5>
+                    <p>MEng, P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide4">
+                  <div class="about-slider-content-update">
+                    <p>As Leader of the Geotechnical Services department, Matt manages an experienced group of geotechnical engineers having expertise in both geotechnical investigation and design as well as construction testing for a wide variety of projects, ranging from small communications towers to large industrial buildings and wastewater treatment plants. Matt graduated with a Master�s Degree in Civil Engineering from the University of Louisville and began his career in 2013 before arriving at Vector in 2015.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project about-mobile about-testimonial mob_view">
+    <div class="inner_part">
+      <div class="container-fluid">
+        <div id="mob-team-holder" class="row"> 
+           <div class="mobteam_left_content col-sm-12 text-center">
+                  <h2 class="top-border"><span>Leadership</span>
+                  Team                  </h2>
+                  <p>With decades of experience in geotechnical engineering and construction services, our leadership team is the envy of every other engineering firm in the <em>United States of America</em>.</p>
+                </div>
+          <div id="mob-our-team-mobile" class="owl-carousel">
+                        <div class="item team_right_mob"  data-dot="<p>Wayne A. Karem,<br> Ph.D., P.E., P.G., D. GE</p>">
+              
+                <div class="tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Karem_Wayne_20210728_FP6_8111.jpg.jpg" alt=""> </div>
+                  <div class="slider-2-contant">
+                    <h5>Wayne A. Karem,</h5>
+                    <p>Ph.D., P.E., P.G., D. GE</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide1">
+                  <div class="about-slider-content-update">
+                    <p>Having graduated with a Ph. D from the University of Kentucky, Dr. Karem brings with him over 35 years of experience in Geotechnical Engineering and Construction Materials Testing. During his illustrious career, he has been a part-time professor at the University of Kentucky between 2004-2015 and a member of the Kentucky Association of Economic Developers (KAED). Being a certified expert in Geotechnical Engineering with several published research papers to his credit, he is an integral part of the team and its deliverables. Dr. Karem was the Executive Vice President for QORE Property Sciences (Formerly Atlanta Testing and Engineering), prior to joining Vector.<br />
+Wayne is the <em>President</em> at Vector and is currently an advisor to the Civil Engineering Department at Western Kentucky University and an adjunct Professor at the University of Kentucky. Dr. Karem also is active in the American Council of Engineering Consultants (ACEC).</p>
+                  </div>
+                </div>
+              
+            </div>
+                        <div class="item team_right_mob"  data-dot="<p>John D. Conway,<br> P.E.</p>">
+              
+                <div class="tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Conway_John-David_20210728_FP6_8181.jpg.jpg" alt=""> </div>
+                  <div class="slider-2-contant">
+                    <h5>John D. Conway,</h5>
+                    <p>P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide2">
+                  <div class="about-slider-content-update">
+                    <p>John, a B.S.C.E. graduate from the University of Kentucky, has been working with Vector for over 5 years. He has worked on numerous large projects in field testing, before being elevated to the CMT Department as <em>Leader &amp; Project Manager</em>. An engineer&#8217;s engineer, John has spent the majority of his time at the company working on geotechnical site characterizations and overseeing the majority of the company&#8217;s testing projects.</p>
+                  </div>
+                </div>
+              
+            </div>
+                        <div class="item team_right_mob"  data-dot="<p>W. Robert Folsom,<br> MSCE, P.E.</p>">
+              
+                <div class="tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Folsom_Rob_2021.jpg" alt=""> </div>
+                  <div class="slider-2-contant">
+                    <h5>W. Robert Folsom,</h5>
+                    <p>MSCE, P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide3">
+                  <div class="about-slider-content-update">
+                    <p>A bona-fide rocket scientist, Robert aka &#8216;Rob&#8217; as he is affectionately known, brings with him a B.S. and an M.S. from Brigham Young University. Since his transition from Law Engineering to Geotechnical Engineering in the early &#8217;90s, Rob has served as the Chief Engineer supervising the Owensboro office for over 11 years. With a total of 33 years of experience under his belt, he is Vector&#8217;s &#8216;go-to&#8217; man when it comes to seismic sites and building class determination, and liquefaction analysis.</p>
+                  </div>
+                </div>
+              
+            </div>
+                        <div class="item team_right_mob"  data-dot="<p>Matthew J. Slusser, <br>MEng, P.E.</p>">
+              
+                <div class="tim_mimg">
+                  <div class="team_right_img"><img src="assets/images/Slusser_Matt_20210728_FP6_8203-for-web.jpg" alt=""> </div>
+                  <div class="slider-2-contant">
+                    <h5>Matthew J. Slusser,</h5>
+                    <p>MEng, P.E.</p>
+                  </div>
+                </div>
+                <div class="team_right_content aslide4">
+                  <div class="about-slider-content-update">
+                    <p>As Leader of the Geotechnical Services department, Matt manages an experienced group of geotechnical engineers having expertise in both geotechnical investigation and design as well as construction testing for a wide variety of projects, ranging from small communications towers to large industrial buildings and wastewater treatment plants. Matt graduated with a Master�s Degree in Civil Engineering from the University of Louisville and began his career in 2013 before arriving at Vector in 2015.</p>
+                  </div>
+                </div>
+              
+            </div>
+                      </div>
+          <!--For Mobile version--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <div id="innpage_content">
+    <div id="content_about" class="about-area white-bg ptb-100 relative rt-animate" data-rt-offset="50%">
+      <div class="container">
+                <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 column-center">
+            <div class="mlr-minus clearfix about_btm">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="myself">
+                  <div class="heading">
+                    <h2>EMPLOYEE STOCK OWNERSHIP <br>
+                      <span>PROGRAM (ESOP <span>s</span>)</span></h2>
+                    <div class="mbimg"> <img src="assets/images/vector-engineers-inc-esops.jpg" alt="Vector Engineering | ESOPs"> </div>
+                    <p>Vector Engineers is part of a very small group of companies globally that are active participants in an Employee Stock Ownership Plan or ESOPs. ESOPs, an employee retirement plan governed by the Employment Retirement and Security Act (ERISA), allow employees to own stocks of the company, which they can choose to either retain or liquidate, post a certain age and tenure within the organization.</p>
+<p>Stock option programs are fairly common in senior white-collar jobs, but Vector is one of a rare few that opened this program up to its entire workforce. This program is significant because it gives the employees a vested interest in how the company performs. Over time, this interest will develop a sense of ownership within the workforce and result in higher quality work and employee satisfaction levels.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 dxkimg"> <img src="assets/images/vector-engineers-inc-esops.jpg" alt="Vector Engineering | ESOPs"> </div>
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="myself about_heading">
+                  <div class="heading">
+                    <h3>THE CORE PRINCIPLES OF VECTOR'S STOCK OWNERSHIP PROGRAM ARE AS FOLLOWS  </h3>
+                  </div>
+                </div>
+              </div>
+                            <div class="row">
+                                <div class="ab_btmtxt col-xs-12 col-sm-12 col-md-6 col-sm-6 about_pgbtm">
+                  <div class="myself">
+                    <div class="heading">
+                      <h3><strong>REALIZE</strong></h3>
+                      <p>Realize that you, the employee, are a true owner of the company. And, as an owner, you have a certain responsibility to both the company you own and the employees that own it with you.</p>
+ </div>
+                  </div>
+                </div>
+                                <div class="ab_btmtxt col-xs-12 col-sm-12 col-md-6 col-sm-6 about_pgbtm">
+                  <div class="myself">
+                    <div class="heading">
+                      <h3><strong>WORK HARD</strong></h3>
+                      <p>Work hard, minimize waste, eliminate errors, and keep a safe workplace. Doing just this much every day is enough to make a difference.</p>
+ </div>
+                  </div>
+                </div>
+                              </div>
+                            <div class="row">
+                                <div class="ab_btmtxt col-xs-12 col-sm-12 col-md-6 col-sm-6 about_pgbtm">
+                  <div class="myself">
+                    <div class="heading">
+                      <h3><strong>WHATEVER YOU DO</strong></h3>
+                      <p>Everything you do affects the ESOPs, so make sure whatever you do is the best that you can.</p>
+ </div>
+                  </div>
+                </div>
+                                <div class="ab_btmtxt col-xs-12 col-sm-12 col-md-6 col-sm-6 about_pgbtm">
+                  <div class="myself">
+                    <div class="heading">
+                      <h3><strong>ORGANIZATION</strong></h3>
+                      <p>No one individual can make a huge difference. Only together can we grow the value of the organization and your stake in it.</p>
+ </div>
+                  </div>
+                </div>
+                              </div>
+                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+
+#focus-input2::after {
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    color: red;
+    line-height: 1.2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+</style>
+
+<div id="contact" class="contact-area theme-bg section-padding rt-animate" data-rt-offset="215%">
+  <div id="work" class="services-area light-bg relative rt-animate" data-rt-offset="50%" >
+    <div class="container">
+      <div class="row">
+        <div class="work_box colmain">
+          <div class="left-text col-sm-4 col-md-4 col1">
+            <div class="work-boxleft">
+              <div class="xg-content">
+                <div class="red_line"> READY TO JOIN </div>
+                <div class="our_team"> OUR GROWING TEAM</div>
+                <div class="spn_w">OF PROFESSIONALS?</div>
+             
+                <div class="aplybtn"><a href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&ccId=165919794_8471&type=MP&lang=en_US" target="_blank" title="vector-engineering-inc-apply-now" alt="Vector Engineers, Inc | Apply Now for a Job"class="btn lg-btn mt-20">APPLY NOW</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="right-text col-md-8 col-sm-8 col2">
+            <div class="work-boxright">
+                            <img src="assets/images/vector-engineering-inc-join-the-team.jpg" border="0" alt="Vector Engineers, Inc | Career Opportunities" style="width: 100%;object-fit: cover;"> </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="foot_last">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div id="popask" class="heading white mb-75">
+            <div id="pptext" class="col-xs-12 col-md-9 col-sm-8"> <p>NEED SOME EXPERT ADVICE ON A PROJECT FOR YOU OR A CLIENT? LET A CERTIFIED MEMBER OF OUR TEAM GUIDE YOU THROUGH THE ENTIRE PROCESS AND HELP YOU FINALIZE ON EXACTLY WHAT YOU NEED.</p>
+ </div>
+            <div id="askbtn" class="col-xs-12 col-md-3 col-sm-4"> <a href="#"  class="btn lg-btn " data-toggle="modal" data-target="#myModal" title="vector-engineering-inc-ask-an-expert" alt="Vector Engineers, Inc | Ask an Expert">ASK AN EXPERT</a> </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog-centered" style="width:770px;margin:0 auto;"> 
+          
+          <!-- Modal content-->
+          
+          <div class="modal-content">
+            <div class="modal-header" style="background-color:black;border-bottom: 0px ;">
+              <button type="button" class="close" data-dismiss="modal" style="color:#fff;margin-top: 4px;font-size: 27px;opacity: 1;margin-right: 13px; border: 2px solid #fff;
+
+  -webkit-border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  border-radius: 20px;
+
+  padding: 1px 8px;
+
+ ">&times;</button>
+              <h4 class="modal-title" style="color:#B4563A;font-size:30px;margin-left:4%;">PLEASE FILL OUT THE FORM BELOW, AND WE WILL BE IN TOUCH!</h4>
+            </div>
+            <div class="xg-service-box-02 tinted-image" style="height:550px;padding: 0px 0px 0px 0px;border: 0px; ">
+              <div class="modal-body">
+                <div class="container-contact2">
+                  <div class="wrap-contact2" style="padding: 15px 75px 86px 32px;">
+                    <div id="mail-status"></div>
+                    <div class="wrap-input2 validate-input" data-validate="Name is required">
+                      <input class="input2 fname" type="text" name="name"  style="border: 0px;">
+                      <span class="focus-input2 pfname" data-placeholder="Name"></span> <span class="focus-input2 pfnamereq" data-placeholder="Name is required" style="display: none;"></span> </div>
+                    <div class="wrap-input2 validate-input" data-validate="Phone number is required">
+                      <input class="input2 fmobile" type="tel"  maxlength="10" name="mobile" style="border:0px;">
+                      <span class="focus-input2 pmobile" data-placeholder="Mobile"></span> <span class="focus-input2 pmobilereq" data-placeholder="Valid phone number is required" style="display: none;"></span> </div>
+                    <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                      <input class="input2 femail" type="text" name="email" style="border: 0px">
+                      <span class="focus-input2 pemail" data-placeholder="Email"></span> <span class="focus-input2 pemailreq" data-placeholder="Valid email is required: ex@abc.xyz" style="display: none;"></span> </div>
+                    <div class="wrap-input2 validate-input" data-validate="Message is required">
+                      <textarea class="input2 fmessage" name="message" style="border: 0px"></textarea>
+                      <span class="focus-input2 pmessage" data-placeholder="Message"></span> <span class="focus-input2 pmessagereq" data-placeholder="Message is required" style="display: none;"></span> </div>
+
+
+
+					  <div class="g-recaptcha"  data-sitekey="6LfiURQgAAAAAKclDTWstCfLc-gh0FmOo-MtaH3F"></div>
+                      <div class="alert alert-danger" id="error_div" style="display:none;">
+                          
+                      </div>
+                      
+					  
+					
+                    <div class="container-contact2-form-btn text-right">
+                      <div class="wrap-contact2-form-btn">
+                        <div class="contact2-form-bgbtn"></div>
+                        <button class="contact2-form-btn" onClick="sendContact();"> <strong>SUBMIT</strong> </button>
+                      </div>
+                    </div>
+     </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="divider theme-bg" >
+            <hr class="line white btmline">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row" id="footerlink">
+      <div id="footmenu1"  class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+        <div class="contact-info">
+			<ul id="menu-header_menu" class="footer-classic-list d-inline-block d-sm-block footerLinks text-left"><li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-171"><a [routerLink]="['/home']">Home</a></li>
+<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-172"><a [routerLink]="['/aboutus']" aria-current="page">About Us</a></li>
+<li id="menu-item-508" class="active_menu3 menu-item menu-item-type-post_type menu-item-object-page menu-item-508"><a [routerLink]="['/home']">Services</a></li>
+<li id="menu-item-481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+</ul>          
+        </div>
+      </div>
+      <div id="footadd1" class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+        <div class="contact-info adds1">
+          <ul class="footer-classic-list d-inline-block d-sm-block text-right">
+            <li>
+              <h3><strong>SHELBYVILLE</strong></h3>
+            </li>
+            <li>502-437-5650</li>
+            <li>1535 Old Finchville Road</li>
+            <li>Shelbyville, KY 40065</li>
+          </ul>
+        </div>
+      </div>
+      <div id="ftlogo" class="col-xs-12 col-sm-6 col-md-3 mobi-mb-30 footer-col footer-col-arrow text-center">
+        <div class="contact-info"> <img src="assets/images/vector-engineers-kentucky-logo.png" border="0" alt="Vector, Inc. | Logo"> </div>
+      </div>
+      <div id="footadd2" class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+        <div class="contact-info adds2">
+          <ul class="footer-classic-list d-inline-block d-sm-block text-left">
+            <li>
+              <h3><strong>OWENSBORO</strong></h3>
+            </li>
+            <li>(270) 984-2923</li>
+            <li>400 E Second St</li>
+            <li>Owensboro, KY 40303</li>
+          </ul>
+        </div>
+      </div>
+      <div id="footmenu2" class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+        <div class="contact-info">
+			<ul id="menu-header_menu" class="footer-classic-list d-inline-block d-sm-block footerLinks text-left"><li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a [routerLink]="['/contactus']">Contact Us</a></li>
+<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-176"><a [routerLink]="['/privacy']">Privacy Policy</a></li>
+<li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a [routerLink]="['/terms']">Terms of use</a></li>
+<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+</ul>          
+        </div>
+      </div>
+    </div>      <div class="row social social-line">
+       
+      </div>
+      <div class="row social" style="margin-top:2.5%;">
+        <div class="col-md-4 col-sm-4 copyright">
+          <p class="white-color">&#169; 2022 &nbsp;<a [routerLink]="['/home']" >Vector Engineers, Inc. <!--Vector Engineers, Inc.--></a></p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="col-xs-12 text-center"> </div>
+        </div>
+        <div class="col-md-4 col-sm-4 copyrightr">
+          <p class="white-color">Design - &nbsp;<a target="_blank" [routerLink]="['/home']">Marching Ants </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+</div>

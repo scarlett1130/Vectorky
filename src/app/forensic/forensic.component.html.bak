@@ -1,0 +1,534 @@
+<header id="active-sticky" class="fixed">
+    <div class="container header-container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="d-flex">
+                      <div class="logo mr-auto"> <a [routerLink]="['/home']" class="custom-logo-link" rel="home"> <img width="400" height="400" src="assets/images/logo-main.png" class="custom-logo" alt="Vector Engineers, Inc | Kentucky Area - Logo" /> </a> </div>
+                      <div class="mainmenu onepage-menu">
+              <nav class="navbar-collapse clearfix smooth-scroll">
+                <ul id="menu-header_menu" class="menu"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-20"><a [routerLink]="['/home']">Home</a></li>
+  <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a [routerLink]="['/aboutus']">About Us</a></li>
+  <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-25"><a href="#">services</a>
+  <ul class="sub-menu">
+      <li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503"><a href="/services">overview</a></li>
+      <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a[routerLink]="['/geotechnical']">GEOTECHNICAL ENGINEERING</a></li>
+      <li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a [routerLink]="['/geophysical']">GEOPHYSICAL SERVICES</a></li>
+      <li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a [routerLink]="['/drilling']">DRILLING SERVICES</a></li>
+      <li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a [routerLink]="['/construction']">CONSTRUCTION SERVICES &#038; TESTING</a></li>
+      <li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-346 current_page_item menu-item-360"><a [routerLink]="['/forensic']" aria-current="page">FORENSIC GEOTECHNICAL ENGINEERING</a></li>
+  </ul>
+  </li>
+  <li id="menu-item-480" class="career menu-item menu-item-type-custom menu-item-object-custom menu-item-480"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+  <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a [routerLink]="['/contactus']">Contact</a></li>
+  </ul>            </nav>
+            </div>
+          </div>
+          
+          <!-- next start side menu --> 
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="home"  class="slider-area innerservice_banner height-100  bg-img-1 mearts-overlay rt-animate" data-rt-offset="50%" alt="Vector Engineers, Inc. | Geotechnical Engineering Services in Kentucky">
+    <div class="d-table">
+      <div class="dt-cell">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="slide-caption smooth-scroll"style="text-align:left;margin-left:0;">
+                <h1 class="mearts-author white-color" style="font-family: Rift-Regular;"> FORENSIC GEOTECHNICAL<br/>
+  ENGINEERING </h1>
+                <div class="lineservice"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Slider Section End -->
+  
+  
+  <div id="primary">
+  <div id="service_primary" class="content-area serviceinner">
+    <div id="about" class="aboutservice_area white-bg rt-animate" data-rt-offset="50%">
+      <div class="container">
+              <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 column-center">
+            <div class="mlr-minus clearfix">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid myself"><div class="heading wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+      <div class="wpb_text_column wpb_content_element " id="sertitle">
+          <div class="wpb_wrapper">
+              <h2>WE PROVIDE GEOTECHNICAL<br />
+  <span class="clrb">AND GEOLOGICAL RELATED</span></h2>
+  
+          </div>
+      </div>
+  
+      <div  class="wpb_single_image wpb_content_element vc_align_center   sv1mob">
+          
+          <figure class="wpb_wrapper vc_figure">
+              <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="479" height="473" src="assets/images/forensic-geotechnical-icon.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="assets/images/forensic-geotechnical-icon.png 479w, assets/images/forensic-geotechnical-icon-300x296.png 300w, assets/images/forensic-geotechnical-icon-150x148.png 150w" sizes="(max-width: 479px) 100vw, 479px" /></div>
+          </figure>
+      </div>
+  
+      <div class="wpb_text_column wpb_content_element " >
+          <div class="wpb_wrapper">
+              <p>evaluations of various Earth Structure failures, Building Structural Distresses, and Expert Witness Testimonies. Our seasoned team of Forensic Geotechnical Engineers have many years of experience in the industry, and as such can provide valuable insight into the reasons behind failed structures.</p>
+  
+          </div>
+      </div>
+  </div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6" id="ssimg4"><div class="vc_column-inner"><div class="wpb_wrapper">
+      <div  class="wpb_single_image wpb_content_element vc_align_center">
+          
+          <figure class="wpb_wrapper vc_figure">
+              <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="479" height="473" src="assets/images/forensic-civil-engineering-company-icon.png" class="vc_single_image-img attachment-full" alt="Vector, Inc. | Forensic Civil Engineering Company in Kentucky" loading="lazy" srcset="assets/images/forensic-civil-engineering-company-icon.png 479w, assets/images/forensic-civil-engineering-company-icon-300x296.png 300w, images/forensic-civil-engineering-company-icon-150x148.png 150w" sizes="(max-width: 479px) 100vw, 479px" /></div>
+          </figure>
+      </div>
+  </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space"   style="height: 10px"><span class="vc_empty_space_inner"></span></div></div></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+  </div>
+  <div class="service about-testimonial relative clearfix"> 
+    
+    <!-- CLIENTS CAROUSEL HOLDER -->
+        <div id="serviceone" class="about-area rt-animate rt-animate-show" data-rt-offset="50%" style="margin-top:0;">
+      <div class="row mailcol">
+        <div id="sleft_text" class="left-text nopadding scol1 col-sm-3">
+          <div class="service-box-left">
+            <div class="xg-content">
+              <h2 class="title1">VARIOUS EARTH<br/>
+  STRUCTURE<br/>
+  FAILURES</h2>
+            </div>
+          </div>
+        </div>
+        <div id="sright_img" class="right-text nopadding scol2 col-sm-9">
+          <div class="service-box-right"> <img src="assets/images/forensic-engineering-detecting-various-earth-structures-failures.jpg" border="0" alt="Vector Engineers, Inc. | Ground Penetrating Radar Services in Kentucky"> </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <div class="clearfix"></div>
+  <div id="innpage_content" class="innerservice">
+    <div id="servicesingle" class="about-area section-padding rt-animate" data-rt-offset="50%">
+      <div class="container">
+        <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 column-center">
+            <div class="mlr-minus clearfix">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="myself">
+                  <div class="heading">
+                    <p style="margin-right: 0px;"><h3>OUR FAILURE EVALUATIONS INCLUDE, <span>BUT ARE NOT LIMITED TO THE FOLLOWING:</span></h3>
+  <div class="col-xs-12 col-sm-12 col-md-8 col-sm-6">
+  <div class="myself">
+  <div class="heading">
+  <ul>
+  <li>Dam Embankments</li>
+  <li>Slope Stability Issues</li>
+  <li>Karst (Sinkhole) Issues</li>
+  <li>Retaining Walls</li>
+  </ul>
+  </div>
+  </div> 
+  </div>
+  
+  <div class="col-xs-12 col-sm-12 col-md-4 col-sm-6">
+  <div class="myself">
+  <div class="heading">
+  <ul>
+  <li>Asphalt Pavements</li>
+  <li>Groundwater & Seepage Issues</li>
+  <li>Settlement of Existing Buildings</li>
+  <li>Concrete Slab & Pavement Failures</li>
+  </ul>
+  </div>
+  </div> 
+  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contact-area theme-bg section-padding rt-animate" data-rt-offset="215%">
+    <div id="work" class="services-area light-bg relative rt-animate" data-rt-offset="50%">
+      <div class="container">
+        <div class="row">
+          <div id="ctform_left" class="work_box">
+            <div class="left-text col-sm-4 col-md-4">
+              <div class="pagework-boxleft">
+              <div class="xg-content">
+               <div class="mobtle1">Need some expert advice<br/> on a project for you<br/> or a client? </div>
+                <div class="tle1"> 
+               
+                  Need some <br/>
+  expert advice <br/>
+  on a project for <br/>
+  you or a client? 				
+                  </div>
+                  <p>Let a certified member of our team guide you<br />
+  through the entire process and help you<br />
+  finalize on exactly what you need.</p>
+  
+              </div>
+              </div>
+            </div>
+            <div class="right-text col-sm-8 col-md-8">
+              <div class="work-boxright xg-service-box-02 tinted-image"style="height:471px;padding: 0px 0px 0px 0px;border: 0px; ">
+                <div class="container-contact2">
+                  <div class="wrap-contact2">
+                    <div id="mail-status"></div>
+                      <div class="wrap-input2 validate-input" data-validate="Name is required">
+                        <input class="input2 fname" type="text" name="name"  style="border: 0px;">
+                        <span class="focus-input2 pfname" data-placeholder="Name"></span>
+                       <span class="focus-input2 pfnamereq" data-placeholder="Name is required" style="display: none;"></span>
+                      </div>
+                      <div class="wrap-input2 validate-input" data-validate="Phone number is required">
+                        <input class="input2 fmobile" type="tel" maxlength="10" name="mobile" style="border:0px;">
+                        <span class="focus-input2 pmobile" data-placeholder="Mobile"></span> 
+                      <span class="focus-input2 pmobilereq" data-placeholder="Valid phone number is required" style="display: none;"></span> 
+                      </div>
+                      <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input2 femail" type="text" name="email" style="border: 0px">
+                        <span class="focus-input2 pemail" data-placeholder="Email"></span>
+                        <span class="focus-input2 pemailreq" data-placeholder="Valid email is required: ex@abc.xyz" style="display: none;"></span>
+                      </div>
+                      <div class="wrap-input2 validate-input" data-validate="Message is required">
+                        <textarea class="input2 fmessage" name="message" style="border: 0px"></textarea>
+                        <span class="focus-input2 pmessage" data-placeholder="Message"></span> 
+                        <span class="focus-input2 pmessagereq" data-placeholder="Message is required" style="display: none;"></span>
+                      
+                      </div>
+                      <div class="container-contact2-form-btn text-right">
+                        <div class="wrap-contact2-form-btn">
+                          <div class="contact2-form-bgbtn"></div>
+                          <button class="contact2-form-btn" onClick="sendContact();"> <strong>SUBMIT</strong> </button>
+                        </div>
+                      </div>
+                   
+                    <script>
+  var jg4 = jQuery.noConflict();
+  
+  jg4(function() {
+   
+      jg4(".fname").change(function(){
+  // Print entered value in a div box
+  
+  if(jg4(".fname").val()!="")
+  {
+  jg4('.pfname').hide();
+  jq('.pfnamereq').hide();
+  }else
+  {
+    jg4('.pfname').show();
+  
+  }
+  
+  });
+   jg4(".fmobile").change(function(){
+  // Print entered value in a div box
+  
+  if(jg4(".fmobile").val()!="")
+  {
+  jg4('.pmobile').hide();
+  jg4('.pmobilereq').hide();
+  }else
+  {
+    jg4('.pmobile').show();
+  
+  }
+  
+  });
+  
+   jg4(".femail").change(function(){
+  // Print entered value in a div box
+  
+  if(jg4(".femail").val()!="")
+  {
+  jg4('.pemail').hide();
+  jg4('.pemailreq').hide();	
+  }else
+  {
+    jg4('.pemail').show();
+  
+  }
+  
+  });
+  
+   jg4(".fmessage").change(function(){
+  // Print entered value in a div box
+  
+  if(jg4(".fmessage").val()!="")
+  {
+  jg4('.pmessage').hide();
+  jg4('.pmessagereq').hide();	
+  }else
+  {
+    jg4('.pmessage').show();
+  
+  }
+  
+  });
+  
+   });
+  
+  
+  
+  </script>
+                      
+  <script>
+      var jq=jQuery.noConflict();
+  function sendContact() {
+      var valid;	
+      valid = validateContact();
+      if(valid) {
+          jQuery.ajax({
+          url: "http://localhost:8080/vector/wp-content/themes/vector4/contact_mail.php",
+          data:'userName='+jq(".fname").val()+'&userEmail='+jq(".femail").val()+'&phone='+jq(".fmobile").val()+'&content='+jq(".fmessage").val(),
+          type: "POST",
+          success:function(data){
+          jq("#mail-status").html(data);
+          },
+          error:function (){}
+          });
+      }
+  }
+  
+  function validateContact() {
+      var valid = true;	
+      /*jq(".demoInputBox").css('background-color','');
+      jq(".info").html('');*/
+      
+      if(!jq(".fname").val()) {
+          jq('.pfname').hide();
+          jq('.pfnamereq').show();
+          //jq("#userName-info").html("(required)");
+          //jq("#userName").css('background-color','#FFFFDF');
+          valid = false;
+      }
+      if(!jq(".fmobile").val()) {
+          //jq("#userEmail-info").html("(required)");
+          //jq("#userEmail").css('background-color','#FFFFDF');
+          jq('.pmobile').hide();
+          jq('.pmobilereq').show();
+          valid = false;
+      }
+      
+      if(!jq(".fmobile").val().match(/^\d*(?:\.\d{1,2})?$/)) {
+          jq('.pmobile').hide();
+          jq('.pmobilereq').show();
+          //jq("#userEmail-info").html("(invalid)");
+          //jq("#userEmail").css('background-color','#FFFFDF');
+          valid = false;
+      }
+      
+      if(jq(".fmobile").val().length != 10) {
+          jq('.pmobile').hide();
+          jq('.pmobilereq').show();
+          //jq("#userEmail-info").html("(invalid)");
+          //jq("#userEmail").css('background-color','#FFFFDF');
+          valid = false;
+      }
+      
+      if(!jq(".femail").val()) {
+          //jq("#userEmail-info").html("(required)");
+          //jq("#userEmail").css('background-color','#FFFFDF');
+          jq('.pemail').hide();
+          jq('.pemailreq').show();
+          valid = false;
+      }
+      
+      if(!jq(".femail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+          jq('.pemail').hide();
+          jq('.pemailreq').show();
+          //jq("#userEmail-info").html("(invalid)");
+          //jq("#userEmail").css('background-color','#FFFFDF');
+          valid = false;
+      }
+      /*if(!jq("#subject").val()) {
+          jq("#subject-info").html("(required)");
+          jq("#subject").css('background-color','#FFFFDF');
+          valid = false;
+      }*/
+      if(!jq(".fmessage").val()) {
+          //jq("#content-info").html("(required)");
+          //jq("#content").css('background-color','#FFFFDF');
+          jq('.pmessage').hide();
+          jq('.pmessagereq').show();
+          valid = false;
+      }
+      
+      return valid;
+  }
+  </script>					
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="svfoot">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div id="service_headingpart" class="heading white"> 
+            <div class="col-sm-3 sb1 nopadding">
+            <div class="col-xs-12 col-sm-12 col-md-4 nopadding">
+              <div class="s_img">
+                                <div class="heading"> <img src="assets/images/1-geotechnical-engineering-icon.png" width="76" height="71" border="0" alt=""> </div>
+                              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+              <div class="s_text">
+                  <p><strong>
+                      <a [routerLink]="['/geotechnical']" style="color:#b4563a;font-weight: 700;">GEOTECHNICAL <br/>
+  ENGINEERING</a>					</strong><i class="fa fa-angle-right"></i></p>
+              </div>
+            </div>
+            </div>
+            
+            
+            <div class="col-sm-3 sb2 nopadding">
+            <div class="col-xs-12 col-sm-12 col-md-4 nopadding">
+              <div class="s_img">
+                                <div class="heading"> <img src="assets/images/2-geophysical-services-icon-1.png" width="66" height="66" border="0" alt=""> </div>
+                              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+              <div class="s_text">
+                  <p><strong>
+                      <a [routerLink]="['/geophysical']" style="color:#b4563a;font-weight: 700;">Geophysical<br/>
+  Services</a>					
+                      </strong><i class="fa fa-angle-right"></i></p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-sm-3 sb3 nopadding">
+            <div class="col-xs-12 col-sm-12 col-md-4 nopadding">
+              <div class="s_img">
+                  
+                <div class="heading">
+                    
+                    <img src="assets/images/3-drilling-services-icon.png" width="92" height="66" border="0" alt=""> </div>
+                              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+              <div class="s_text">
+                  <p><strong>
+                      <a  [routerLink]="['/drilling']" style="color:#b4563a;font-weight: 700;">Drilling<br/> 
+  Services</a>
+                      </strong><i class="fa fa-angle-right"></i></p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-sm-3 sb4 nopadding">
+            <div class="col-xs-12 col-sm-12 col-md-4 nopadding">
+              <div class="s_img">
+                                <div class="heading"> <img src="assets/images/4-construction-services-testing-icon.png" width="67" height="66" border="0" alt=""> </div>
+                              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+              <div class="s_text">
+                  <p><strong>
+                      <a [routerLink]="['/construction']" style="color:#b4563a;font-weight: 700;">Construction <br/> 
+  Services & Testing</a>					</strong><i class="fa fa-angle-right"></i></p>
+                </div>
+            </div>
+            </div>
+            
+              <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="divider theme-bg" >
+            <hr class="line white btmline">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row" id="footerlink">
+        <div id="footmenu1"  class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+          <div class="contact-info">
+              <ul id="menu-header_menu" class="footer-classic-list d-inline-block d-sm-block footerLinks text-left"><li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-171"><a [routerLink]="['/home']">Home</a></li>
+  <li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a [routerLink]="['/aboutus']">About Us</a></li>
+  <li id="menu-item-508" class="active_menu3 menu-item menu-item-type-post_type menu-item-object-page menu-item-508"><a >services</a></li>
+  <li id="menu-item-481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a target="_blank" rel="nofollow" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a59d88e8-87a7-42c3-83ac-2de2200aefd4&#038;ccId=165919794_8471&#038;type=MP&#038;lang=en_US">Careers</a></li>
+  </ul>          
+          </div>
+        </div>
+        <div id="footadd1" class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+          <div class="contact-info adds1">
+            <ul class="footer-classic-list d-inline-block d-sm-block text-right">
+              <li>
+                <h3><strong>SHELBYVILLE</strong></h3>
+              </li>
+              <li>502-437-5650</li>
+              <li>1535 Old Finchville Road</li>
+              <li>Shelbyville, KY 40065</li>
+            </ul>
+          </div>
+        </div>
+        <div id="ftlogo" class="col-xs-12 col-sm-6 col-md-3 mobi-mb-30 footer-col footer-col-arrow text-center">
+          <div class="contact-info"> <img src="assets/images/vector-engineers-kentucky-logo.png" border="0" alt="Vector, Inc. | Logo"> </div>
+        </div>
+        <div id="footadd2" class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+          <div class="contact-info adds2">
+            <ul class="footer-classic-list d-inline-block d-sm-block text-left">
+              <li>
+                <h3><strong>OWENSBORO</strong></h3>
+              </li>
+              <li>(270) 984-2923</li>
+              <li>400 E Second St</li>
+              <li>Owensboro, KY 40303</li>
+            </ul>
+          </div>
+        </div>
+        <div id="footmenu2" class="col-xs-12 col-sm-6 col-md-2 mobi-mb-30 footer-col">
+          <div class="contact-info">
+              <ul id="menu-header_menu" class="footer-classic-list d-inline-block d-sm-block footerLinks text-left"><li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a [routerLink]="['/contactus']">Contact Us</a></li>
+  <li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-176"><a [routerLink]="['/privacy']">Privacy Policy</a></li>
+  <li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a [routerLink]="['/terms']">Terms of use</a></li>
+  <li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+  </ul>          
+          </div>
+        </div>
+      </div>    <div class="row social social-line">
+        
+      </div>
+      <div class="row social" style="margin-top:2.5%;">
+        <div class="col-md-4 col-sm-4 copyright">
+          <p class="white-color">&#169; 2022 &nbsp;<a [routerLink]="['/home']">Vector Engineers, Inc.</a></p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="col-xs-12 text-center"> </div>
+        </div>
+        <div class="col-md-4 col-sm-4 copyrightr">
+          <p class="white-color">Design - &nbsp;<a target="_blank" href="https://www.marchingantsglobal.com/">Marching Ants </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    </div>
+  </div>
+  </div>

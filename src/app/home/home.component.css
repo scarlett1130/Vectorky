@@ -1,0 +1,15 @@
+.top-services-slider .owl-dot p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Rift-Regular;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.top-services-slider .owl-dots {
+    position: absolute;
+    left: 60px;
+    bottom: 52px;
+    z-index: 99;
+}

@@ -1,0 +1,13 @@
+.mearts-home .kc_column {
+	padding: 0;
+}
+
+
+input#contact_submit {
+	max-width: 175px;
+}
+
+.wpcf7 .row {
+	margin-right: -6px;
+	margin-left: -15px;
+}
